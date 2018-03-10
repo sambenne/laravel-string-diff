@@ -1,0 +1,36 @@
+{
+  "license": "MIT",
+  "name": "sambenne/laravel-string-diff",
+  "description": "A laravel friendly wrapper around iamkate diff implementation.",
+  "keywords": [
+    "laravel",
+    "iamkate",
+    "diff"
+  ],
+  "authors": [
+    {
+      "name": "Sam Bennett",
+      "email": "bennettsst@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "illuminate/support": "5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SamBenne\\LaravelStringDiff\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SamBenne\\LaravelStringDiff\\Providers\\StringDiffServiceProvider"
+      ]
+    },
+    "branch-alias": {
+      "dev-master": "0.1-dev"
+    }
+  },
+  "minimum-stability": "dev"
+}
