@@ -9,7 +9,9 @@
     {
         public function boot()
         {
-
+            $this->publishes([
+                __DIR__ . '/../../assets' => public_path('vendor/string-diff'),
+            ], 'public');
         }
 
         public function register()

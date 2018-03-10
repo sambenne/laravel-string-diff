@@ -28,7 +28,7 @@
         "SamBenne\\LaravelStringDiff\\Providers\\StringDiffServiceProvider"
       ],
       "aliases": {
-        "StringDiff": "SamBenne\\LaravelStringDiff\\Facade"
+        "StringDiff": "SamBenne\\LaravelStringDiff\\Facade\\StringDiff"
       }
     },
     "branch-alias": {
